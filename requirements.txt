@@ -1,0 +1,6 @@
+---
+
+## 4. Requirement Blueprint Mapping (`requirements.txt`)
+
+```text
+requests>=2.31.0
