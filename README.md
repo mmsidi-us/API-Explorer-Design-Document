@@ -6,9 +6,11 @@ This repository contains a two-part project demonstrating both the consumption a
 
 ```text
 REST API Explorer & Design Document/
+├── .gitignore               # Tells Git which files to ignore (e.g., venv/)
 ├── README.md                # Project overview and execution instructions
 ├── requirements.txt         # Project Python dependencies
 ├── api_explorer.py          # Runnable Python script consuming 3 public APIs
 ├── api_documentation.md     # Engineering log of public APIs explored
-├── api_design.md            # Comprehensive REST design document (Recipe Manager)
-└── curl_examples.txt        # Language-agnostic curl commands for rapid testing
+├── api_design.md            # Main REST design document (Recipe Manager)
+├── authentication.md        # Access control and JWT authorization matrices
+└── error.state.directory.md # Error codes and system trigger mappings
